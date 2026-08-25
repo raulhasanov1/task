@@ -1,4 +1,4 @@
-# Linux `sed` və Python-da `EOF` (End of File) Dokumentasiyası
+# Linux `sed` və Python-da `EOF`  Dokumentasiyası
 
 Bu layihə Linux əməliyyat sistemində mətn emalı üçün istifadə olunan `sed` komandası və proqramlaşdırmada faylın sonunu təyin edən `EOF` anlayışı, həmçinin Python-dakı `EOFError` xətaları haqqında ətraflı məlumatı ehtiva edir.
 
@@ -6,7 +6,7 @@ Bu layihə Linux əməliyyat sistemində mətn emalı üçün istifadə olunan `
 
 ## 1. `sed` Komandası Nədir?
 
-`sed` (stream editor) – mətn verilənlərinin ardıcıl axınına qabaqcadan müəyyən olunmuş müxtəlif mətn çevirmələri tətbiq edən mətn redaktoru (eləcə də proqramlaşdırma dili). 
+`sed`  – mətn verilənlərinin ardıcıl axınına qabaqcadan müəyyən olunmuş müxtəlif mətn çevirmələri tətbiq edən mətn redaktoru (eləcə də proqramlaşdırma dili). 
 
 * **Tarixçəsi:** İlkin variantı 1973-74-cü illərdə Bell Labs əməkdaşı Li Makmahon (Lee E. McMahon) tərəfindən UNIX-utilit kimi yazılıb. 
 * **İş prinsipi:** Hazırda `sed` faktiki olaraq komanda sətri ilə işi dəstəkləyən istənilən əməliyyat sistemində işləyir. Olduqca dolaşıq proqram olsa da, çox güclüdür.
@@ -19,7 +19,7 @@ sed 's/regexp/replacement/g' inputFileName > outputFileName
 
 ---
 
-## 2. `EOF` (End of File - Faylın Sonu) Anlayışı
+## 2. `EOF` (Faylın Sonu) Anlayışı
 
 Faylın sonu – bəzən proqram tərəfindən faylın axırıncı baytında yerləşdirilən kod. `EOF` simvolu əməliyyat sisteminə verilənlərin sonunu bildirən nişandır. 
 

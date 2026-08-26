@@ -34,7 +34,7 @@ Python-da fayllarla işləyərkən `EOF` (End of File - Faylın Sonu), oxuma əm
 
 ---
 
-## 4. "EOFError: EOF when reading a line" Xətası Nədir?
+## 4. "EOFError: Sətir oxunarkən faylin sonu (EOF) bas verdi" Xətası Nədir?
 
 Bu xəta Python-da `input()` funksiyası heç bir məlumat oxumadan "faylın sonu" (EOF) şərtinə rast gəldikdə baş verir. 
 
